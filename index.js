@@ -6,7 +6,7 @@ let posY = (Math.random() * (window.innerHeight - ballSize)).toFixed();
 function Ball() { 
   let newBall=document.createElement("div");
  
-  newBall.style.border = "3px solid green";
+  newBall.style.border = "4px solid green";
   newBall.style.borderRadius = "50%";
   newBall.style.width = "200px";
   newBall.style.height = "200px";
